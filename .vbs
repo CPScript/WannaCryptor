@@ -28,7 +28,7 @@ FSO.MoveFile "Alert.txt","C:\Users\Public\101\102\"
 CreateObject("Wscript.Shell").Run """C:\Users\Public\101\102\Alert.txt""", 1, True
 y=MsgBox("CPScript/Chai is not resposible, please conferm this by clicking 'YES'", 0+48, "message!")
 WScript.Sleep(100)
-y=MsgBox("Please confirm that you are ready to Run the Trajan/Virus", 3+48, "Warning!")
+y=MsgBox("Please confirm that you are ready to Run the Trajan/Virus... If not RESTART YOU PC BEFOR PRESSING A BUTTON BELOW", 3+48, "Warning!")
 WScript.Sleep(100)
 y=MsgBox("Done...", 0+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
 y=MsgBox("WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!", 2+16, "Error Notice!!!")
