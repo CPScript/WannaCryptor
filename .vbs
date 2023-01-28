@@ -8,7 +8,11 @@ FSO.CreateFolder("C:\Users\Public\Folder\")
 FSO.CreateFolder("C:\Users\Public\Folder\Alert\")
 FSO.CreateTextFile "Alert.txt"
 Set AFile = FSO.CreateTextFile("Alert.txt", True)
-AFile.WriteLine("SUCSESS")
+AFile.WriteLine("I do hope you Know that this is WannaCry... please dont underestimate its power")
+AFile.WriteLine("Please read The file called Warning, before clicking OKEY!!!")
+AFile.WriteLine(" ")
+AFile.WriteLine("CPScript/Chai is not responsible for you acctions")
+AFile.WriteLine("by clicking OKEY/Starting the script you agree to thius condtion")
 Afile.Close
 'Use later to add folder into Program Files (86*) OR MOVE FOLDERS INTO OTHER FOLDERS
 FSO.MoveFile "Alert.txt","C:\Users\Public\Folder\Alert\"
