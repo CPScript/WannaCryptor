@@ -23,6 +23,8 @@ AFile.WriteLine("If you dont agree Please Restart your system and Delete the Fol
 Afile.Close
 
 FSO.MoveFile "Alert.txt","C:\Users\Public\101\102\"
+FSO.MoveFile "Warning.txt","C:\Users\Public\101\102\"
+FSO.MoveFile "Warning.txt","C:\Users\Public\101\102\"
 
 
 CreateObject("Wscript.Shell").Run """C:\Users\Public\101\102\Alert.txt""", 1, True
