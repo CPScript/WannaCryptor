@@ -1,21 +1,57 @@
 WScript.Sleep(1)
-a=MsgBox("Your trying to run a Prgram, Would you like to Run this?", 3+48, "Warning!")
+a=MsgBox("Your trying to run a Prgram, Would you like to Run this?", 3+48, "Alert")
 
 DIM FSO, MyFile
 
 SET FSO=CreateObject("Scripting.FileSystemObject")
-FSO.CreateFolder("C:\Users\Public\Folder\")
-FSO.CreateFolder("C:\Users\Public\Folder\Alert\")
+FSO.CreateFolder("C:\Users\Public\101\")
+FSO.CreateFolder("C:\Users\Public\101\102\")
 FSO.CreateTextFile "Alert.txt"
 Set AFile = FSO.CreateTextFile("Alert.txt", True)
 AFile.WriteLine("I do hope you Know that this is WannaCry... please dont underestimate its power")
-AFile.WriteLine("Please read The file called Warning, before clicking OKEY!!!")
+AFile.WriteLine("Please read The file called Warning, before clicking YES!!!")
 AFile.WriteLine(" ")
-AFile.WriteLine("CPScript/Chai is not responsible for you acctions")
-AFile.WriteLine("by clicking OKEY/Starting the script you agree to thius condtion")
+Afile.WriteLine("CONDITIONS")
+AFile.WriteLine("1: CPScript/Chai is not responsible for you actions.")
+AFile.WriteLine("2: DO NOT!!! Send anyone this, and dont use it in a harmful way.")
+AFile.WriteLine("3: You have agreed to reading the Warning.txt file and know what your going to get into.")
+AFile.WriteLine("4: If you use my code for a Malicious Use, You agree that Chai/CPScript is not Responsible for what you use it for.")
+AFile.WriteLine("5: You agree that you will not use this for Malicious use. and if so used, YOUR AT FAULT. ")
+AFile.WriteLine(" ")
+AFile.WriteLine("By clicking YES/Starting the program you agree to these conditions")
+AFile.WriteLine("If you dont agree Please Restart your system and Delete the Folder called 101 in the directory C:\Users\Public\101\")
 Afile.Close
-'Use later to add folder into Program Files (86*) OR MOVE FOLDERS INTO OTHER FOLDERS
-FSO.MoveFile "Alert.txt","C:\Users\Public\Folder\Alert\"
+
+FSO.MoveFile "Alert.txt","C:\Users\Public\101\102\"
 
 
-CreateObject("Wscript.Shell").Run """C:\Users\Public\Folder\Alert\Alert.txt""", 1, True
+CreateObject("Wscript.Shell").Run """C:\Users\Public\101\102\Alert.txt""", 1, True
+y=MsgBox("Please read Alert.txt, once read click 'YES'", 0+48, "message!")
+WScript.Sleep(100)
+y=MsgBox("Please confirm that you are ready to Run the Trajan/Virus", 3+48, "Warning!")
+WScript.Sleep(100)
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
+y=MsgBox("Done...", 3+48, "WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! ")
