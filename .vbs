@@ -1,5 +1,5 @@
 WScript.Sleep(1)
-a=MsgBox("Your trying to run a Prgram, Would you like to Run this?", 3+48, "Alert")
+a=MsgBox("Please click one of the 3 buttons below", 3+48, "Alert")
 
 DIM FSO, MyFile
 
