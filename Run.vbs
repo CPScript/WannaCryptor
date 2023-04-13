@@ -1,6 +1,4 @@
 WScript.Sleep(1)
-a=MsgBox("Please click one of the 3 buttons below", 3+48, "Alert")
-
 DIM FSO, MyFile
 
 SET FSO=CreateObject("Scripting.FileSystemObject")
